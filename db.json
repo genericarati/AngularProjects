@@ -1,0 +1,72 @@
+{
+  "contacts": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "jason",
+        "last": "berry"
+      },
+      "location": {
+        "street": "4358 ash dr",
+        "city": "lake",
+        "state": "australian capital territory",
+        "postcode": 5479
+      },
+      "email": "jason.berry@example.com",
+      "login": {
+        "username": "biggoose394",
+        "password": "tribble",
+        "salt": "rHh7sPsb",
+        "md5": "e516921423283609e6445d1cea6eb608",
+        "sha1": "8e9b385ea20cb5d3bcce52fd11a994f98035af10",
+        "sha256": "64594427fc1cace9c4ab83aa1015525cc2cc96d8f9ad1e7e3f1f3aeeabe2c491"
+      },
+      "dob": "1988-12-08 11:54:34",
+      "registered": "2007-12-24 11:00:24",
+      "phone": "08-4929-6809",
+      "cell": "0432-628-240",
+      "id": 1,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/40.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/40.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/40.jpg"
+      },
+      "nat": "AU"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "mrs",
+        "first": "Arati",
+        "last": "Shekhawat"
+      },
+      "location": {
+        "street": "1843 Lone wolf lanea",
+        "city": "Canton",
+        "state": "pure Michigan",
+        "postcode": 48188
+      },
+      "email": "arati.shekhawat@example.com",
+      "login": {
+        "username": "genericarati",
+        "password": "test",
+        "salt": "rHh7sPsb",
+        "md5": "e516921423283609e6445d1cea6eb608",
+        "sha1": "8e9b385ea20cb5d3bcce52fd11a994f98035af10",
+        "sha256": "64594427fc1cace9c4ab83aa1015525cc2cc96d8f9ad1e7e3f1f3aeeabe2c491"
+      },
+      "dob": "1988-12-08 11:54:34",
+      "registered": "2007-12-24 11:00:24",
+      "phone": "734-786-0215",
+      "cell": "0432-628-240",
+      "id": 2,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/40.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/40.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/40.jpg"
+      },
+      "nat": "IN"
+    }
+  ]
+}

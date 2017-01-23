@@ -9,12 +9,21 @@
 
             self.selectContact = function (index) {
                 self.selectedContact = data[index];
+                self.successMessage = undefined;
             }
         });
 
         this.toggleEditMode = function () {
             this.editMode = !this.editMode;
         }
+
+        this.saveUser = function () {
+            this.toggleEditMode();
+            contactDataService.saveUser(self.selectedContact).then(function () {
+                self.successMessage = "Data is successfully updated.";
+            });
+        }
+
 
     }
 })();
